@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+.recipes{
+    height: 70px;
+    width: auto;
+    display: flex;
+    color: blue;
+    background-color: blue;
+    justify-content: center;
+    border-color: 1px #fff;
+}
+
+.recipes div{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    border-color: 1px #fff;
+    gap: 5px;
+    align-items: center;
+}
+
