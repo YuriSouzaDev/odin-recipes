@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+
+/* SOLUCAO */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 8px 16px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+  margin: botton;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+} 
+
+
+
+
+
+
+/*
+.header .left-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 96px;
+  margin-left: 16px;
+}
+
+.header .right-links{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 120px;
+  margin-right: 16px
+}
+
+.footer{
+  display: flex;
+  align-items: flex-end;
+  background-color: #eee;
+  margin-top: 60px;
+}
+
+.footer .left-links{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 160px;
+  margin-left: 10px;
+}
+
+.footer .right-links{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 120px;
+  margin-right: 20px;
+  padding-top: -2px;
+}
+*/
